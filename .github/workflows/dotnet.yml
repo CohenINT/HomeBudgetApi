@@ -13,8 +13,8 @@ jobs:
   
      steps: 
       - uses: actions/checkout@v2
-      - name: display folder using ls command
-      - run: ls
+        name: display folder using ls command
+        run: ls
       
  #build:
    # runs-on: ubuntu-latest
