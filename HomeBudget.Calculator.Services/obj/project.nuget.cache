@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Lbw8AXyP7vUbBkP66CDS39IDWUx66w1HR0EhU2EzP7zZULcpNfkDAEb+BZaTVJSDjyY1f+mWl+eyNXp28S1rlA==",
+  "success": true,
+  "projectFilePath": "E:\\projects\\Moshe21021\\HomeBudget.Calculator.Services\\HomeBudget.Calculator.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\moshe\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

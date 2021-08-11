@@ -1,0 +1,12 @@
+E:\projects\Moshe21021\HomeBudget.Calculator.Services\obj\Debug\netstandard2.1\HomeBudget.Calculator.Services.csprojAssemblyReference.cache
+E:\projects\Moshe21021\HomeBudget.Calculator.Services\obj\Debug\netstandard2.1\HomeBudget.Calculator.Services.AssemblyInfoInputs.cache
+E:\projects\Moshe21021\HomeBudget.Calculator.Services\obj\Debug\netstandard2.1\HomeBudget.Calculator.Services.AssemblyInfo.cs
+E:\projects\Moshe21021\HomeBudget.Calculator.Services\obj\Debug\netstandard2.1\HomeBudget.Calculator.Services.csproj.CoreCompileInputs.cache
+E:\projects\Moshe21021\HomeBudget.Calculator.Services\bin\Debug\netstandard2.1\HomeBudget.Calculator.Services.deps.json
+E:\projects\Moshe21021\HomeBudget.Calculator.Services\bin\Debug\netstandard2.1\HomeBudget.Calculator.Services.dll
+E:\projects\Moshe21021\HomeBudget.Calculator.Services\bin\Debug\netstandard2.1\HomeBudget.Calculator.Services.pdb
+E:\projects\Moshe21021\HomeBudget.Calculator.Services\bin\Debug\netstandard2.1\HomeBudget.Calculator.Models.dll
+E:\projects\Moshe21021\HomeBudget.Calculator.Services\bin\Debug\netstandard2.1\HomeBudget.Calculator.Models.pdb
+E:\projects\Moshe21021\HomeBudget.Calculator.Services\obj\Debug\netstandard2.1\HomeBudget.Calculator.Services.csproj.CopyComplete
+E:\projects\Moshe21021\HomeBudget.Calculator.Services\obj\Debug\netstandard2.1\HomeBudget.Calculator.Services.dll
+E:\projects\Moshe21021\HomeBudget.Calculator.Services\obj\Debug\netstandard2.1\HomeBudget.Calculator.Services.pdb
