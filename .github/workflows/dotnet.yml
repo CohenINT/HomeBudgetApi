@@ -13,7 +13,7 @@ jobs:
   
      steps: 
       - uses: actions/checkout@v2
-        name: display folder using ls command
+      - name: display folder using ls command
         run: ls
       
  #build:
