@@ -1,35 +1,33 @@
-
-name: .NET
-
-on:
-  push:
-    branches: [master, new-dotnet-workflow]
-  pull_request:
-    branches: [master]
-
+---
 jobs:
- foldershow:
-     runs-on: ubuntu-latest
-  
-     steps: 
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 3.1.x
+      - name: Restore dependencies
+        run: dotnet restore ./HomeBudget.Api/HomeBudget.Api.csproj
+      - name: Build
+        run: dotnet build --no-restore
+      - name: Test
+        run: dotnet test --no-build --verbosity normal
+      - name: Release
+        run: dotnet publish ./HomeBudget.Api/HomeBudget.Api.csproj -c Release -r win-x64 --no-restore -p:PublishReadyToRun=true
+  foldershow:
+    runs-on: ubuntu-latest
+    steps:
       - uses: actions/checkout@v2
       - name: display folder using ls command
         run: ls
-      
- #build:
-   # runs-on: ubuntu-latest
-
-   # steps:
-      #- uses: actions/checkout@v2
-      #- name: Setup .NET
-      #  uses: actions/setup-dotnet@v1
-       # with:
-      #    dotnet-version: "3.1.x"
-    #  - name: Restore dependencies
-      #  run: dotnet restore ./HomeBudget.Api/HomeBudget.Api.csproj
-     # - name: Build
-     #   run: dotnet build --no-restore
-     # - name: Test
-      #  run: dotnet test --no-build --verbosity normal
-     # - name: Release
-    #    run: dotnet publish ./HomeBudget.Api/HomeBudget.Api.csproj -c Release -r win-x64 --no-restore -p:PublishReadyToRun=true
+name: .NET
+'on':
+  pull_request:
+    branches:
+      - master
+  push:
+    branches:
+      - master
+      - new-dotnet-workflow
