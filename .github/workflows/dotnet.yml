@@ -15,7 +15,7 @@ jobs:
       - name: Test
         run: dotnet test --no-build --verbosity normal
       - name: Release
-        run: dotnet publish /HomeBudget.Api/HomeBudget.Api.csproj -c Release -r win-x64 --no-restore
+        run: dotnet publish /HomeBudget.Api/HomeBudget.Api.csproj -c Release --no-restore --no-build
   foldershow:
     runs-on: ubuntu-latest
     steps:
